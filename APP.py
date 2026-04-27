@@ -2,6 +2,7 @@ import os
 import customtkinter as ctk
 from tkinter import filedialog, messagebox
 from cryptography.fernet import Fernet
+import socket
 
 # Generate or load encryption key       
 KEY_FILE = "secret.key"
